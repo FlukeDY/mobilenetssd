@@ -26,7 +26,7 @@ UPLOAD_FOLDER ='static/uploads/'
 DOWNLOAD_FOLDER = 'static/downloads/'
 ALLOWED_EXTENSIONS = {'jpg', 'png','.jpeg'}
 
-lineaccesstoken = vGBtptDV2xyM1wxPtcW5osxbZOBD35fUV+puxydAHOXvguCNbmL8gjxFzB8CjJkSPqopFeJuIDwq8dPJV+p6MEmWazputGojVn1V7S1+u0mM17lNXOF9ul/CVGv2NOc4Uc4Oc5Oc5Oc
+lineaccesstoken = 'vGBtptDV2xyM1wxPtcW5osxbZOBD35fUV+puxydAHOXvguCNbmL8gjxFzB8CjJkSPqopFeJuIDwq8dPJV+p6MEmWazputGojVn1V7S1+u0mM17lNXOF9ul/CVGv2NOc4Uc4Oc5Oc5Oc'
 
 line_bot_api = LineBotApi(lineaccesstoken)
 
