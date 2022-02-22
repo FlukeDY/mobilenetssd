@@ -26,7 +26,7 @@ UPLOAD_FOLDER ='static/uploads/'
 DOWNLOAD_FOLDER = 'static/downloads/'
 ALLOWED_EXTENSIONS = {'jpg', 'png','.jpeg'}
 
-lineaccesstoken = ''
+lineaccesstoken = vGBtptDV2xyM1wxPtcW5osxbZOBD35fUV+puxydAHOXvguCNbmL8gjxFzB8CjJkSPqopFeJuIDwq8dPJV+p6MEmWazputGojVn1V7S1+u0mM17lNXOF9ul/CVGv2NOc4U'c4c5Oc5Oc
 
 line_bot_api = LineBotApi(lineaccesstoken)
 
@@ -149,8 +149,8 @@ def event_handle(event,json_line):
 
     if msgType == "text":       
         msg = str(event["message"]["text"])
-        if msg == "สวัสดี":
-            replyObj = TextSendMessage(text="ดีด้วย")
+        if msg == "ขอเมนูอาหาร":
+            replyObj = TextSendMessage(text="ข้าวผัดกระเพรา 35 บาท")
             line_bot_api.reply_message(rtoken,replyObj)
         elif msg == "กินข้าวไหม":
             replyObj = TextSendMessage(text="ไม่ล่ะ กินแล้ว")
